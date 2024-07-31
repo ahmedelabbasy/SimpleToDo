@@ -63,8 +63,8 @@ const App: React.FC = () => {
   return (
     <SafeAreaView style={styles.safeArea}>
       <Header title={strings.headerTitle} />
-      <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-        <View style={styles.container}>
+      <View style={styles.container}>
+        <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
           <View style={styles.inputContainer}>
             <TextInput
               style={styles.input}
@@ -79,19 +79,19 @@ const App: React.FC = () => {
               <Text style={styles.addButtonText}>{strings.addButton}</Text>
             </TouchableOpacity>
           </View>
-          <ToDoList
-            items={items}
-            removeToDo={removeToDo}
-            toggleComplete={toggleComplete}
-          />
-          <TouchableOpacity style={styles.clearButton} onPress={clearCompleted}>
-            <Icon name="clear-all" size={24} color={theme.colors.secondary} />
-            <Text style={styles.clearButtonText}>
-              {strings.clearCompletedButton}
-            </Text>
-          </TouchableOpacity>
-        </View>
-      </TouchableWithoutFeedback>
+        </TouchableWithoutFeedback>
+        <ToDoList
+          items={items}
+          removeToDo={removeToDo}
+          toggleComplete={toggleComplete}
+        />
+        <TouchableOpacity style={styles.clearButton} onPress={clearCompleted}>
+          <Icon name="clear-all" size={24} color={theme.colors.secondary} />
+          <Text style={styles.clearButtonText}>
+            {strings.clearCompletedButton}
+          </Text>
+        </TouchableOpacity>
+      </View>
     </SafeAreaView>
   );
 };

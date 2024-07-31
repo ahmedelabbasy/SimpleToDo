@@ -51,8 +51,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingHorizontal: 5,
-    // paddingVertical: 5,
-    // backgroundColor: theme.colors.checkbox,
     flex: 1,
   },
   checkbox: {
