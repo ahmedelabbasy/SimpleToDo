@@ -1,0 +1,6 @@
+{
+  "headerTitle": "SimpleToDo",
+  "inputPlaceholder": "What do you need to do?",
+  "addButton": "ADD",
+  "clearCompletedButton": "CLEAR COMPLETED"
+}
