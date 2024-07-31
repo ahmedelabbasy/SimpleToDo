@@ -67,19 +67,33 @@ Clear all completed items by tapping the "Clear Completed" button.
 
 SimpleToDo/
 ├── src/
+
 │   ├── components/
+
 │   │   ├── Header.tsx
+
 │   │   ├── ToDoItem.tsx
+
 │   │   └── ToDoList.tsx
+
 │   ├── interfaces/
+
 │   │   └── ToDoItem.ts
+
 │   ├── constants.ts
+
 │   ├── strings.json
+
 │   ├── theme.ts
+
 │   ├── App.tsx
+
 ├── index.js
+
 ├── package.json
+
 └── tsconfig.json
+
 
 
 ### Referance
