@@ -99,8 +99,13 @@ SimpleToDo/
 ### Referance
 
 components/: Contains the React components used in the app.
+
 interfaces/: Contains TypeScript interfaces used in the app.
+
 constants.ts: Contains the initial data for the app.
+
 strings.json: Contains all string literals for easy management and future translation.
+
 theme.ts: Contains the theme colors for the app.
+
 App.tsx: The main app component.
